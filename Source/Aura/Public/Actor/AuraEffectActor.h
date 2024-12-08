@@ -57,13 +57,7 @@ protected:
 
 	UPROPERTY (EditAnywhere, BlueprintReadOnly, Category = "Applied Effects")
 	EEffectApplicationPolicy DurationEffectApplicationPolicy = EEffectApplicationPolicy::DoNotApply;
-
-	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = "Applied Effects")
-	TSubclassOf<UGameplayEffect> PeriodicGameplayEffectClass;
-
-	UPROPERTY (EditAnywhere, BlueprintReadOnly, Category = "Applied Effects")
-	EEffectApplicationPolicy PeriodicEffectApplicationPolicy = EEffectApplicationPolicy::DoNotApply;
-	
+		
 	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = "Applied Effects")
 	TSubclassOf<UGameplayEffect> InfiniteGameplayEffectClass;
 
